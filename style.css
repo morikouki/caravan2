@@ -62,6 +62,7 @@ main {
 .blog {
 	width: 540px;
 	float: left;
+	margin-right: 30px;
 }
 .blog-contents {
 	padding-top: 50px;
@@ -100,9 +101,19 @@ main {
 	border-radius: 3px;
 }
 .sidebar {
+	width: 230px;
 	float: left;
 }
-.sidebar {
+.sidebar-logo {
+	text-align: center;
 	line-height: 5px;
 	border-bottom: 8px solid #f7f7f7;
+}
+.popular-contents {
+	padding: 50px 0;
+}
+.popular-text {
+	border-bottom: solid 1px #f7f7f7;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
